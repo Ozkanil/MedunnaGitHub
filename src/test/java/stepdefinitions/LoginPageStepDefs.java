@@ -25,7 +25,7 @@ public class LoginPageStepDefs{
     public void user_clicks_sign_in_button_at_the_home_page_and_navigates_to_sign_in_page() {
 
         commonPage.accountMenu.click();
-        Driver.waitForClickablility(commonPage.signIn,5).click();
+        Driver.waitForClickablility(commonPage.signInDropdown,5).click();
 
     }
     @Then("user verifies that sign in page header is visible")

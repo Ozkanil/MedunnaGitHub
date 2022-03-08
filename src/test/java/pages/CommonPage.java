@@ -15,7 +15,7 @@ public class CommonPage {
     public WebElement accountMenu;
 
     @FindBy(xpath = "(//*[@class='dropdown-item'])[1]")
-    public WebElement signIn;
+    public WebElement signInDropdown;
 
     @FindBy(xpath = "(//*[@class='dropdown-item'])[2]")
     public WebElement Register;
