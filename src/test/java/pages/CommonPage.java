@@ -17,9 +17,6 @@ public class CommonPage {
     @FindBy(xpath = "(//*[@class='dropdown-item'])[1]")
     public WebElement signInDropdown;
 
-
-
-
     @FindBy(xpath = "(//*[@class='dropdown-item'])[2]")
     public WebElement Register;
 
@@ -39,7 +36,7 @@ public class CommonPage {
     public WebElement sendAppointment;
 
     @FindBy(xpath = "//span[contains(text(),'MY PAGES')]")
-    public WebElement myPages;
+    public WebElement Pages;
 
     @FindBy(xpath = "//span[contains(text(),'In Patient')]")
     public WebElement inPatientUnderMyPages;
