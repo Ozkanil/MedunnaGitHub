@@ -57,4 +57,11 @@ public class SignInPage {
     @FindBy(xpath = "//h2")
     public WebElement signoutMessage;
 
+    @FindBy(xpath = "//span[contains(text(),'Search Patient')]")
+    public WebElement itemsAndTitles;
+
+    @FindBy(xpath = "//*[@data-icon='glasses']")
+    public WebElement testItemUnderItemAndTest;
+
+
 }
