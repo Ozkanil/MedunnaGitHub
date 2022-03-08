@@ -1,8 +1,6 @@
 package pages;
 
-<<<<<<<<< Temporary merge branch 1
-public class RegistrationPage {
-=========
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -85,5 +83,5 @@ public class RegistrationPage {
 
     @FindBy(xpath = "(//*[@class='invalid-feedback'])[6]")
     public WebElement invalidPasswordFeedback;
->>>>>>>>> Temporary merge branch 2
+
 }
