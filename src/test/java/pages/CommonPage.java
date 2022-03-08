@@ -17,6 +17,9 @@ public class CommonPage {
     @FindBy(xpath = "(//*[@class='dropdown-item'])[1]")
     public WebElement signInDropdown;
 
+
+
+
     @FindBy(xpath = "(//*[@class='dropdown-item'])[2]")
     public WebElement Register;
 
